@@ -12,7 +12,7 @@ namespace UnityStandardAssets._2D
         public float lookAheadMoveThreshold = 0.1f;
 
         private float m_OffsetZ;
-        private Vector3 m_LastTargetPosition;
+        public Vector3 m_LastTargetPosition;
         private Vector3 m_CurrentVelocity;
         private Vector3 m_LookAheadPos;
 
